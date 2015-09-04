@@ -1,0 +1,6 @@
+# New Features #
+
+  * LJXP has been internationalized. There is support in place for multiple languages. Any non-English speakers interested in translating LJXP into their language may feel free to do so. Please send me the translation file and I will post it on this site.
+  * In line with i18n, the Unicode support has been reworked. Instead of converting non-ASCII characters to entities, I discovered that LiveJournal was not expecting Unicode by default; rather, a simple switch needed to be enabled. LJXP now properly supports Unicode (except for in Categories/Tags, where LJ doesn't support Unicode)
+  * In order to deal with the fact that LJ doesn't support tags with Unicode names, there is now an option to disable tagging crossposted entries. It's on the Options page.
+  * A much requested feature, I have added support for <!--more-->. Users of LJXP can select to either have all entries crossposted in their entirety, post a link back to WordPress, or crosspost the portion of the entry after &lt;!--more--&gt; as an LJ-cut

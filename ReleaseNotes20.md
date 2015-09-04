@@ -1,0 +1,1 @@
+This version is compatible with WP version 2.1, and retains compatibility with WP 2.0
